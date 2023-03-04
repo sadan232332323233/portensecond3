@@ -1,0 +1,372 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.header {
+    background-color:#0F0F0F;
+    height: 80px;
+    font-family: 'PT Sans', sans-serif;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 70%;
+}
+.headerFlexContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+.headerMenu {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.headerMenu a:first-child {
+    color: #FFFFFF;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+}
+.headerMenu a {
+    color: #969696;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+}
+.mainPage {
+    background-image: url('./images/main-page-background.png');
+    height: 90vh;
+    background-size: cover;
+    font-family: 'PT Sans', sans-serif;
+}
+.mainPageContainer{
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+.mainPageContainerChild {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    align-items: center;
+    gap: 40px;
+}
+.mainPageContainerChild div:not(:first-child){
+    font-weight: 400;
+    font-size: 16px;
+    line-height:25px;
+    color :#FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+}
+.logoBox {
+    width: 320px;
+    height: 320px;
+    border: 4px solid #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.logoBox p {
+    font-weight: 400;
+    font-size: 22px;
+    color :#FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+}
+.line {
+    width: 58%;
+    height: 3px;
+    background-color: #FFFFFF;
+}
+.seasonContainer {
+    display: flex;
+    height:  80vh;
+}
+.seasonFirstContainer {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: #000000;
+    color:#FFFFFF;
+    font-family: 'Playfair Display', serif;
+}
+.seasonImg{
+    background-color: #191B1C;
+    padding: 55px 20px 55px 20px;
+}
+.seasonImg img {
+    width: 160px;
+}
+.seasonImagesContainer {
+    display: flex;
+    gap: 30px;
+}
+.seasonImagesSingle{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.hrSeason {
+    background-color: #ffffff;
+    width: 150px;
+    height: 1px;
+}
+.seasonSecondContainer {
+    width: 45%;
+    background-image: url('images/male.png');
+    background-size: cover;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+.seasonSecondWrapper {
+    height: 75vh;
+    display: flex;
+    align-items: flex-end;
+}
+.seasonSecondContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 60px;
+    
+}
+.seasonSecondContent button {
+    width: 150px;
+    border: 1px solid #ffffff;
+    text-transform: uppercase; 
+    padding:  10px 20px 10px 20px;
+    background: none;
+    color: #ffffff;
+    font-family: 'PT Sans', sans-serif;
+    cursor: pointer;
+}
+.seasonSecondContent h1 {
+    font-family: 'Playfair Display', serif;
+}
+.collectionContainer {
+    display: flex;
+    height: 70vh;
+}
+.collectionCostume{
+    width: 45%;
+    background-image: url('images/costume_male.png');
+    background-size: cover;
+}
+.collectionWrapper {
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    color:#FFFFFF;
+    background-color: #000000;
+}
+.collectionContent {
+    width: 60%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+.collectionContent button {
+    border: 1px solid #ffffff;
+    text-transform: uppercase; 
+    padding:  10px 20px 10px 20px;
+    background: none;
+    color: #ffffff;
+    font-family: 'PT Sans', sans-serif;
+    cursor: pointer;
+}
+.collectionContent p {
+    font-family: 'PT Sans', sans-serif;
+    line-height: 15px;
+}
+.collectionContent h2 {
+    font-family: 'Playfair Display', serif;
+}
+.newCollectionContainer{
+    font-family: 'Playfair Display', serif;
+    /* height: 80vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.newCollectionContent{
+    display: flex;
+    gap: 20px;
+
+}
+.brandContent{
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    background-color: #0F0F0F;
+    color: #FFFFFF;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.aboutContainer{
+    font-family: 'PT Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-image: url(images/Rectangle\ 15.png);
+    background-size: cover;
+
+}
+.aboutWrapper{
+    display: flex;
+    width: 60%;
+    gap: 20px;
+    color: #FFFFFF;
+}
+.aboutWrapper > div{
+    width:30% ;
+}
+.aboutProductsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+   
+}
+.aboutProductsContainer div {
+background-color: #0F0F0F;
+padding: 10px 20px 10px 20px;
+cursor: pointer;
+}
+.aboutWrapper h2{
+  margin-top: 30px;
+  font-family: 'Playfair Display', serif;
+}
+.subscribeBlock{
+    display: flex;
+    height: 42px;
+
+}
+.subscribeBlock input{
+    background-color: rgba(255,255,255,0.4);
+    padding: 0 10px;
+    border: none;
+}
+.subscribeBlock input::placeholder{
+    color: rgba(255,255,255,0.6);
+}
+.subscribeBlock button{
+    padding: 10px 20px;
+    background: #0F0F0F;
+    color: #FFFFFF;
+    border: none;
+}
+.footer{
+    font-family: 'PT Sans', sans-serif;
+    text-transform: uppercase;
+    background-color: #000000;
+    
+}
+.footer >div{
+width: 80%;
+height: 50px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+color: #FFFFFF;
+}
+.menuIcon{
+    display:none;
+}
+
+
+
+
+@media (max-widht:576px){
+    .menuIcon{
+        display: block;
+        width: 25px;
+    }
+    .headerMenu{
+        display: none;
+    }
+    .mainPageContainerChild{
+        width: 80%;
+    }
+.seasonContainer{
+    height: auto;
+    flex-direction: column;
+}
+.seasonImagesSingle{
+    align-items: center;
+}
+.seasonFirstContainer{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.seasonFirstContainer h2{
+    margin-top: 20px;
+}
+.seasonImagesContainer{
+flex-direction: column;
+}
+.seasonSecondContainer{
+    width: 100%;
+}
+.seasonSecondWrapper{
+    height: 40vh;
+}
+.collectionCostume{
+    display: none;
+}
+.collectionWrapper{
+    width: 100%;
+}
+.newCollectionContent{
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.brandContainer{
+    display: flex;
+    flex-direction: column;
+}
+.aboutContainer{
+    height: auto;
+}
+   .aboutWrapper{
+    flex-direction: column;
+   }
+   .aboutWrapper >div{
+    width: 100%;
+   }
+   .footer{
+    font-size: 10px;
+   }
+
+}
+
+
